@@ -91,7 +91,7 @@ class TransactionFormCubit extends Cubit<TransactionFormState> {
         errorMessage: '',
       ));
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Cập nhật thành công!')),
+        SnackBar(content: Text('Cập nhật thành công!')),
       );
     }
   }
